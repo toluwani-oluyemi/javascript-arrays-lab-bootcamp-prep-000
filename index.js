@@ -25,6 +25,6 @@ return newCats
 function prependKitten(name)
 {
   var newCat = ["Arnold"]
-  var newCats = kitten.slice(0)
+  var newCats = kitten.splice(0)
 }
 
