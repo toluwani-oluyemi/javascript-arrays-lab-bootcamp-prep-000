@@ -28,7 +28,7 @@ function prependKitten(name)
   var newCats = newCat.concat(kittens)
   return newCats
 }
-function removeLastKitten(name)
+function removeLastKitten(...name)
 {
   var newCats = kittens.pop(..."Garfield");
   return kittens
