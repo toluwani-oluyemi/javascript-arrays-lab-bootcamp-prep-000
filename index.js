@@ -25,7 +25,7 @@ return newCats
 function prependKitten(name)
 {
   var newCat = ["Arnold"]
-  var newCats = kittens.unshift(0,..."Arnold")
+  var newCats = newCat.concat(kittens)
   return newCats
 }
 
