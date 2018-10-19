@@ -28,4 +28,7 @@ function prependKitten(name)
   var newCats = newCat.concat(kittens)
   return newCats
 }
-
+function removeLastKitten(name)
+{
+  
+}
